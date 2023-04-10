@@ -1,16 +1,27 @@
 {
-  "name": "jazz",
+  "name": "complete-sass-tutorial",
   "version": "1.0.0",
-  "description": "CSS Framework",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thunderk3g/JazzCSS"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thunderk3g/JazzCSS/issues"
+  },
+  "homepage": "https://github.com/Thunderk3g/JazzCSS#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-sass": "^5.1.0",
-    "sass": "^1.60.0"
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.35.2"
+  },
+  "dependencies": {
+    "gulp-purgecss": "^4.0.3"
   }
 }
