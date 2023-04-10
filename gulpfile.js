@@ -15,7 +15,7 @@ function buildStyles() {
         .pipe(cleanCSS({
             compatibility: 'ie11'
         }))
-        .pipe(dest('dist/css'))
+        .pipe(dest('./dist/css'))
 }
 
 function watchTask() {
@@ -30,7 +30,7 @@ gulp.task('build', function () {
         .pipe(cleanCSS({
             compatibility: 'ie11'
         }))
-        .pipe(gulp.dest('dist/css'));
+        .pipe(gulp.dest('./dist/css'));
 });
 
 exports.default = series(buildStyles, watchTask)
