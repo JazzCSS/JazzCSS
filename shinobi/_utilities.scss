@@ -103,6 +103,18 @@ $utilities: (
             "lg": $base-border-radius * 2,
             "full": 50%,
         )),
+    "font-weight": ("prefix": "fw",
+        "values": ("10": 100,
+            "20": 200,
+            "30": 300,
+            "40": 400,
+            "50": 500,
+            "60": 600,
+            "70": 700,
+            "80": 800,
+            "90": 900,
+        ),
+    ),
     "display": ("prefix": "display",
         "values": ("n": none,
             "b": block,
@@ -114,7 +126,8 @@ $utilities: (
             "md": $base-font-size,
             "lg": $font-size-lg,
             "xl": $font-size-xl,
-            "xxl": $font-size-xxl ))
+            "xxl": $font-size-xxl )),
+
 );
 
 // generate utility classes
