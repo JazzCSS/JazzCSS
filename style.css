@@ -11,3 +11,8 @@
 .info-container {
     flex-direction: column;
 }
+
+.code-block {
+    background-color: rgba(238, 238, 238, 0.4);
+    border-left: 2px solid red;
+}
