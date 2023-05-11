@@ -1,18 +1,28 @@
 .header-container {
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
 }
 
 .navbar-transparent {
-    padding: 0px;
+  padding: 0px;
 }
 
 .info-container {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .code-block {
-    background-color: rgba(238, 238, 238, 0.4);
-    border-left: 2px solid red;
+  background-color: rgba(238, 238, 238, 0.4);
+  border-left: 2px solid red;
+}
+
+.jazz-text {
+  background: linear-gradient(90deg, #16dcff, #f918d5, #16dcff, #f918d5);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  -webkit-animation: gradient 20s ease-in-out infinite;
+  animation: gradient 20s ease-in-out infinite;
 }

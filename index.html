@@ -1,539 +1,683 @@
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/dist/css/index.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/css/index.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>JAZZCSS</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar-transparent text-black">
-        <div class="container">
-            <h2 class="site-title"><img src="./img/logo.png" style="height:100px ; width: 200px;"></h2>
-            <p>A lightweight CSS library for dev lords</p>
-        </div>
+      <div class="container">
+        <h2 class="site-title">
+          <img src="./img/logo.png" style="height: 100px; width: 200px" />
+        </h2>
+        <p>A lightweight CSS library for dev lords</p>
+      </div>
     </nav>
     <div class="container">
-        <div class="header-container display-f justify-center">
-            <div class="header-gif">
-                <img class="gif-container" src="./img/jazz.gif" style="height:250px; width: 250px;" />
-            </div>
-            <h2 class="header-title fw-40">
-                JazzCSS
-            </h2>
-            <h4 class="header-subtitle fw-10 mb-2">
-                A lightweight CSS-framework
-            </h4>
-            <h5 class="header-smalltext fw-10 mb-3">
-                Currently v1.0.0
-            </h5>
-            <a href="#" class="btn-outlined-purple text-purple text-hover-white">Getting Started</a>
-
+      <div class="header-container display-f justify-center">
+        <div class="header-gif">
+          <img
+            class="gif-container"
+            src="./img/jazz.gif"
+            style="height: 250px; width: 250px"
+          />
         </div>
-        <br><br>
-        <div class="info-container display-f mb-2">
-            <h2 class="mb-2"> Why is it awesome?</h2>
-            <p>JazzCSS is awesome because it's a lightweight, flexible, and easy-to-use CSS framework. It's designed to
-                be modular, responsive, and customizable, making it a great choice for developers who want to create
-                custom styles without having to start from scratch. The framework is well-documented and provides a set
-                of pre-built classes that you can use to quickly style your HTML elements. Overall, JazzCSS offers a
-                good balance of flexibility and convenience, and it's a great tool for improving productivity and
-                creating cleaner code.
+        <h2 class="header-title fw-40">JazzCSS</h2>
+        <h4 class="header-subtitle fw-10 mb-2">A lightweight CSS-framework</h4>
+        <h5 class="header-smalltext fw-10 mb-3">Currently v1.0.0</h5>
+        <a href="#" class="btn-outlined-purple text-purple text-hover-white"
+          >Getting Started</a
+        >
+      </div>
+      <br /><br />
+      <div class="info-container display-f mb-2">
+        <h2 class="mb-2">Why is it awesome?</h2>
+        <p>
+          JazzCSS is awesome because it's a lightweight, flexible, and
+          easy-to-use CSS framework. It's designed to be modular, responsive,
+          and customizable, making it a great choice for developers who want to
+          create custom styles without having to start from scratch. The
+          framework is well-documented and provides a set of pre-built classes
+          that you can use to quickly style your HTML elements. Overall, JazzCSS
+          offers a good balance of flexibility and convenience, and it's a great
+          tool for improving productivity and creating cleaner code.
+        </p>
+      </div>
+      <br /><br />
+      <div class="info-container display-f mb-2">
+        <h2 class="mb-2">Geting Started</h2>
+        <p>
+          JazzCSS is a lightweight and easy-to-use CSS framework that can be
+          used to build responsive and modern web designs. This section will
+          guide you on how to get started with JazzCSS and start building your
+          web projects.
+        </p>
+        <div class="info-body ml-2 mt-1">
+          <h3>Installation</h3>
+
+          <p>There are several ways to install JazzCSS:</p>
+          <br />
+          <div class="info-subtext">
+            <h4 class="fw-70 mb-1">Option 1: Download from GitHub</h4>
+            <p>
+              You can download JazzCSS directly from our GitHub repository.
+              Simply click the "Code" button and select "Download ZIP". Once
+              downloaded, extract the files and copy the jazz.css and
+              jazz.min.css files into your project directory.
             </p>
-
-        </div>
-        <br><br>
-        <div class="info-container display-f mb-2">
-            <h2 class="mb-2"> Geting Started</h2>
-            <p>JazzCSS is a lightweight and easy-to-use CSS framework that can be used to build responsive and modern
-                web designs. This section will guide you on how to get started with JazzCSS and start building your web
-                projects.
+          </div>
+          <div class="info-subtext mt-2">
+            <h4 class="fw-70 mb-1">Option 2: Install via npm</h4>
+            <p>
+              You can also install JazzCSS via npm. Open your terminal and run
+              the following command:
             </p>
-            <div class="info-body ml-2 mt-1">
-                <h3>Installation</h3>
+            <br />
 
-                <p>There are several ways to install JazzCSS:</p>
-                <br>
-                <div class="info-subtext">
-                    <h4 class="fw-70 mb-1"> Option 1: Download from GitHub </h4>
-                    <p>
-                        You can download JazzCSS directly from our GitHub repository. Simply click the "Code" button and
-                        select
-                        "Download ZIP". Once downloaded, extract the files and copy the jazz.css and jazz.min.css files
-                        into
-                        your project directory.
-                    </p>
-                </div>
-                <div class="info-subtext mt-2">
-                    <h4 class="fw-70 mb-1"> Option 2: Install via npm
-                    </h4>
-                    <p>
-                        You can also install JazzCSS via npm. Open your terminal and run the following command:
-                    </p>
-                    <br>
+            <code class="code-block pl-1">
+              npm install @thunderk3g/jazz-css@1.0.0
+            </code>
+            <br />
+            <br />
 
-                    <code class="code-block pl-1">
-                         npm install @thunderk3g/jazz-css@1.0.0 
-                  </code>
-                    <br>
-                    <br>
-
-                    <p>
-                        This will install JazzCSS into your project's node_modules directory.
-                    </p>
-                </div>
-            </div>
+            <p>
+              This will install JazzCSS into your project's node_modules
+              directory.
+            </p>
+          </div>
         </div>
-        <br><br>
-        <!-- typography-->
-        <div class="info-container display-f mb-2">
-            <div class="info-container-heading">
-                <h2 class="mb-2"> Typography</h2>
-            </div>
-            <div class="info-container-body mb-2">
-                <p> <strong>JAZZCSS</strong> uses <code>font-family</code> <a
-                        href="https://fonts.google.com/specimen/Montserrat">Montserrat</a>,created by <a>Julieta
-                        Ulanovsky,
-                        Sol Matas, Juan Pablo del Peral, Jacques Le Bailly</a>
-
-            </div>
-            <p> JazzCSS sets basic global display , typography and link style, when more control is needed , utility
-                class can be created</p>
-
-            <br>
-            <div class="font-xxl mb-2"> <code class="code-block pl-2">
-                    font-xxl
-                </code>this is extra, extra large font</div>
-            <div class="font-xl mb-2"><code class="code-block pl-2">
-                font-xl
-            </code>this is extra large font</div>
-            <div class="font-lg mb-2"><code class="code-block pl-2">
-                font-l
-            </code>this is large font</div>
-            <div class="font-md mb-2"><code class="code-block pl-2">
-                font-md
-            </code>this is medium font</div>
-            <div class="font-sm"><code class="code-block pl-2">
-                font-sm
-            </code>this is small font</div>
-            <hr class="mt-4 mb-4">
+      </div>
+      <br /><br />
+      <!-- typography-->
+      <div class="info-container display-f mb-2">
+        <div class="info-container-c-heading">
+          <h2 class="mb-2">Typography</h2>
         </div>
-        <br><br>
-        <!-- colors -->
-        <div class="info-container display-f mb-2">
-            <div class="info-container-heading">
-                <h2 class="mb-2">Colors</h2>
-            </div>
-            <div class="info-container-body">
-                <p><strong>JAZZCSS</strong> strongly empasizes on customization. You can set the primary, secondary and
-                    tertiary colors that you might need in your application , JazzCSS will create relevant utility class
-                    for those . Once the base colors are set custom text , background and hover utility classes can be
-                    generated :</p>
-                <br>
-                <code class="info-container-color code-block p-2 display-f ">
-                    "primary": $primary ,
-                    <br>
-                    "secondary": $secondary,
-                    <br>
-                    "error": $error,
-                    <br>
-                    "info": $info,
-                    <br>
-                    "blue": #1919e6,
-                    <br>
-                    "red": #e61919,
-                    <br>
-                    "yellow": #e6e619,
-                    <br>
-                    "green": #19e635,
-                    <br>
-                    "orange": #ffa600,
-                    <br>
-                    "purple": #9900ff,
-                    <br>
-                    "gray": #808080,
-                    <br>
-                    "black": black,
-                    <br>
-                    "white": white,
-                    <br>
-                    "transparent": transparent
-                </code>
-                <br><br>
-                <div class="info-container-color-text">
-                    <span class="text-primary"><code>text-primary</code></span> |
-                    <span class="text-secondary"><code>text-secondary</code></span> |
-                    <span class="text-error"><code>text-error</code></span> |
-                    <span class="text-info"><code>text-info</code></span> |
-                    <span class="text-blue"><code>text-blue</code></span> |
-                    <span class="text-red"><code>text-red</code></span> |
-                    <span class="text-green"><code>text-green</code></span> |
-                    <span class="text-yellow"><code>text-yellow</code></span> |
-                    <span class="text-purple"><code>text-purple</code></span> |
-                    <span class="text-orange"><code>text-orange</code></span> |
-                    <span class="text-gray"><code>text-gray</code></span>
-                </div>
-                <br><br>
-                <div class="info-container-color-background">
-                    <span class="bg-primary text-white"><code>bg-primary</code></span> |
-                    <span class="bg-secondary text-white"><code>bg-secondary</code></span> |
-                    <span class="bg-error text-white"><code>bg-error</code></span> |
-                    <span class="bg-info text-white"><code>bg-info</code></span> |
-                    <span class="bg-blue text-white"><code>bg-blue</code></span> |
-                    <span class="bg-red text-white"><code>bg-red</code></span> |
-                    <span class="bg-green text-white"><code>bg-green</code></span> |
-                    <span class="bg-yellow text-white"><code>bg-yellow</code></span> |
-                    <span class="bg-purple text-white"><code>bg-purple</code></span> |
-                    <span class="bg-orange text-white"><code>bg-orange</code></span> |
-                    <span class="bg-gray text-white"><code>bg-gray</code></span> |
-                    <br><br>
-                    <span class="bg-primary-dark-8 text-white"><code>primary-dark-8</code></span> |
-                    <span class="bg-primary-dark-6 text-white"><code>primary-dark-6</code></span> |
-                    <span class="bg-primary-dark-4 text-white"><code>primary-dark-4</code></span> |
-                    <span class="bg-primary-dark-2 text-white"><code>primary-dark-2</code></span> |
-                    <span class="bg-primary text-white"><code>primary</code></span> |
-                    <span class="bg-primary-light-2 text-white"><code>primary-light-2</code></span> |
-                    <span class="bg-primary-light-4 text-white"><code>primary-light-4</code></span> |
-                    <span class="bg-primary-light-6 text-white"><code>primary-light-6</code></span> |
-                    <span class="bg-primary-light-8 text-white"><code>primary-light-8</code></span> |
-                    <br><br>
-                </div>
-                <a href="#" class="text-primary text-hover-orange-light-1"><code>text-hover-orange-light-1</code></a>
-                <a href="#" class="text-primary text-hover-secondary"><code>text-hover-secondary</code></a>
-                <br><br>
-                <p>You can create as many utility classes as you want !!! Isn't that cool ?</p>
-            </div>
-            <hr class="mt-4 mb-4">
+        <div class="info-container-body mb-2">
+          <p>
+            <strong>JAZZCSS</strong> uses <code>font-family</code>
+            <a href="https://fonts.google.com/specimen/Montserrat">Montserrat</a
+            >,created by
+            <a
+              >Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le
+              Bailly</a
+            >
+          </p>
         </div>
-        <br>
-        <br>
-        <!-- buttons -->
-        <div class="info-container mb-2">
-            <h2 class="mb-2">Buttons</h2>
-            <p>I was really scared when I started as a pilot. I looked down nervously and said: "What are all these
-                buttons for?"</p>
-            <br>
-            <br>
-            <a href="#" class="btn">default btn</a>
-            <a href="#" class="btn-primary text-white">click me</a>
-            <a href="#" class="btn-secondary text-white">click me</a>
-            <a href="#" class="btn-error text-white">click me</a>
-            <a href="#" class="btn-info">click me</a>
-            <a href="#" class="btn-outlined-purple text-purple text-hover-white">click me</a>
-            <a href="#" class="btn-outlined-orange text-orange text-hover-white">click me</a>
-            <a href="#" class="btn-complement-purple">click me</a>
-            <a href="#" class="btn-complement-primary">click me</a>
-            <br>
-            <br>
-            <br>
-            <code class="code-block pl-1 display-f">
-               <span>&ltbutton class=</span><span>"btn"</span><span>></span> default button <span>&lt/button></span><br><br>
-            </code>
-            <code class="code-block pl-1 display-f"> <span>&ltbutton class=</span><span>"btn-primary"</span><span>></span> click me <span>&lt/button></span><br><br>
-            </code>
-            <code class="code-block pl-1 display-f">
-            <span>&ltbutton class=</span><span>"btn-secondary"</span><span>></span> click me
-            <span>&lt/button></span><br><br>
-            </code>
-            <code class="code-block pl-1 display-f">
-            <span>&ltbutton class=</span><span>"btn-error"</span><span>></span> click me <span>&lt/button></span><br><br>
-            </code>
-            <code class="code-block pl-1 display-f">
-            <span>&ltbutton class=</span><span>"btn-outlined-purple"</span><span>></span> click me
-            <span>&lt/button></span><br><br>
-            </code>
-            <code class="code-block pl-1 display-f">
-            <span>&ltbutton class=</span><span>"btn-outlined-orange "</span><span>></span> click me
-            <span>&lt/button></span><br><br>
-            </code>
-            <code class="code-block pl-1 display-f">
-            <span>&ltbutton class=</span><span>"btn-complement-purple"</span><span>></span> click me
-            <span>&lt/button></span><br><br>
-            </code>
-            <code class="code-block pl-1 display-f">
-            <span>&ltbutton class=</span><span>"btn-complement-primary"</span><span>></span> click me
-            <span>&lt/button></span>
-            </code>
-            <br>
-            <p>JazzCSS allows you to customize everything , even buttons! Generate as many as you want in all the colors
-                you want !</p>
-            <hr class="mt-4 mb-4">
-        </div>
-        <br>
-        <br>
 
-        <!-- cards -->
-        <div class="info-container mb-2">
-            <h2 class="mb-2">Cards</h2>
-            <p>What does this joke and half a deck of cards have in common? You can’t even deal with it.</p>
-            <br>
-            <br>
+        <p>
+          JazzCSS sets basic global display , typography and link style, when
+          more control is needed , utility class can be created
+        </p>
+
+        <br />
+        <div class="font-xxl mb-2">
+          <code class="code-block pl-2"> font-xxl </code>this is extra, extra
+          large font
+        </div>
+        <div class="font-xl mb-2">
+          <code class="code-block pl-2"> font-xl </code>this is extra large font
+        </div>
+        <div class="font-lg mb-2">
+          <code class="code-block pl-2"> font-l </code>this is large font
+        </div>
+        <div class="font-md mb-2">
+          <code class="code-block pl-2"> font-md </code>this is medium font
+        </div>
+        <div class="font-sm">
+          <code class="code-block pl-2"> font-sm </code>this is small font
+        </div>
+        <hr class="mt-4 mb-4" />
+      </div>
+      <br /><br />
+      <!-- colors -->
+      <div class="info-container display-f mb-2">
+        <div class="info-container-heading">
+          <h2 class="mb-2">Colors</h2>
+        </div>
+        <div class="info-container-body">
+          <p>
+            <strong>JAZZCSS</strong> strongly empasizes on customization. You
+            can set the primary, secondary and tertiary colors that you might
+            need in your application , JazzCSS will create relevant utility
+            class for those . Once the base colors are set custom text ,
+            background and hover utility classes can be generated :
+          </p>
+          <br />
+          <code class="info-container-color code-block p-2 display-f">
+            "primary": $primary ,
+            <br />
+            "secondary": $secondary,
+            <br />
+            "error": $error,
+            <br />
+            "info": $info,
+            <br />
+            "blue": #1919e6,
+            <br />
+            "red": #e61919,
+            <br />
+            "yellow": #e6e619,
+            <br />
+            "green": #19e635,
+            <br />
+            "orange": #ffa600,
+            <br />
+            "purple": #9900ff,
+            <br />
+            "gray": #808080,
+            <br />
+            "black": black,
+            <br />
+            "white": white,
+            <br />
+            "transparent": transparent
+          </code>
+          <br /><br />
+          <div class="info-container-color-text">
+            <span class="text-primary"><code>text-primary</code></span> |
+            <span class="text-secondary"><code>text-secondary</code></span> |
+            <span class="text-error"><code>text-error</code></span> |
+            <span class="text-info"><code>text-info</code></span> |
+            <span class="text-blue"><code>text-blue</code></span> |
+            <span class="text-red"><code>text-red</code></span> |
+            <span class="text-green"><code>text-green</code></span> |
+            <span class="text-yellow"><code>text-yellow</code></span> |
+            <span class="text-purple"><code>text-purple</code></span> |
+            <span class="text-orange"><code>text-orange</code></span> |
+            <span class="text-gray"><code>text-gray</code></span>
+          </div>
+          <br /><br />
+          <div class="info-container-color-background">
+            <span class="bg-primary text-white"><code>bg-primary</code></span> |
+            <span class="bg-secondary text-white"
+              ><code>bg-secondary</code></span
+            >
+            | <span class="bg-error text-white"><code>bg-error</code></span> |
+            <span class="bg-info text-white"><code>bg-info</code></span> |
+            <span class="bg-blue text-white"><code>bg-blue</code></span> |
+            <span class="bg-red text-white"><code>bg-red</code></span> |
+            <span class="bg-green text-white"><code>bg-green</code></span> |
+            <span class="bg-yellow text-white"><code>bg-yellow</code></span> |
+            <span class="bg-purple text-white"><code>bg-purple</code></span> |
+            <span class="bg-orange text-white"><code>bg-orange</code></span> |
+            <span class="bg-gray text-white"><code>bg-gray</code></span> |
+            <br /><br />
+            <span class="bg-primary-dark-8 text-white"
+              ><code>primary-dark-8</code></span
+            >
+            |
+            <span class="bg-primary-dark-6 text-white"
+              ><code>primary-dark-6</code></span
+            >
+            |
+            <span class="bg-primary-dark-4 text-white"
+              ><code>primary-dark-4</code></span
+            >
+            |
+            <span class="bg-primary-dark-2 text-white"
+              ><code>primary-dark-2</code></span
+            >
+            | <span class="bg-primary text-white"><code>primary</code></span> |
+            <span class="bg-primary-light-2 text-white"
+              ><code>primary-light-2</code></span
+            >
+            |
+            <span class="bg-primary-light-4 text-white"
+              ><code>primary-light-4</code></span
+            >
+            |
+            <span class="bg-primary-light-6 text-white"
+              ><code>primary-light-6</code></span
+            >
+            |
+            <span class="bg-primary-light-8 text-white"
+              ><code>primary-light-8</code></span
+            >
+            | <br /><br />
+          </div>
+          <a href="#" class="text-primary text-hover-orange-light-1"
+            ><code>text-hover-orange-light-1</code></a
+          >
+          <a href="#" class="text-primary text-hover-secondary"
+            ><code>text-hover-secondary</code></a
+          >
+          <br /><br />
+          <p>
+            You can create as many utility classes as you want !!! Isn't that
+            cool ?
+          </p>
+        </div>
+        <hr class="mt-4 mb-4" />
+      </div>
+      <br />
+      <br />
+      <!-- buttons -->
+      <div class="info-container mb-2">
+        <h2 class="mb-2">Buttons</h2>
+        <p>
+          I was really scared when I started as a pilot. I looked down nervously
+          and said: "What are all these buttons for?"
+        </p>
+        <br />
+        <br />
+        <a href="#" class="btn">default</a>
+        <a href="#" class="btn-primary text-white">primary</a>
+        <a href="#" class="btn-secondary text-white">secondary</a>
+        <a href="#" class="btn-error text-white">error</a>
+        <a href="#" class="btn-info">info</a>
+        <a href="#" class="btn-outlined-purple text-purple text-hover-white"
+          >outlined</a
+        >
+        <a href="#" class="btn-outlined-orange text-orange text-hover-white"
+          >outlined</a
+        >
+        <a href="#" class="btn-complement-purple">complimentary</a>
+        <a href="#" class="btn-complement-primary">complimentary</a>
+        <br />
+        <br />
+        <br />
+        <p>
+          JazzCSS allows you to customize everything , even buttons! Generate as
+          many as you want in all the colors you want !
+        </p>
+        <div class="collapse">
+          <div class="c-body">
+            <div class="c-content">
+              <code class="code-block pl-1 display-f">
+                <span>&ltbutton class=</span><span>"btn"</span
+                ><span>></span> default button <span>&lt/button></span
+                ><br /><br />
+              </code>
+              <code class="code-block pl-1 display-f">
+                <span>&ltbutton class=</span><span>"btn-primary"</span
+                ><span>></span> click me <span>&lt/button></span><br /><br />
+              </code>
+              <code class="code-block pl-1 display-f">
+                <span>&ltbutton class=</span><span>"btn-secondary"</span
+                ><span>></span> click me <span>&lt/button></span><br /><br />
+              </code>
+              <code class="code-block pl-1 display-f">
+                <span>&ltbutton class=</span><span>"btn-error"</span
+                ><span>></span> click me <span>&lt/button></span><br /><br />
+              </code>
+              <code class="code-block pl-1 display-f">
+                <span>&ltbutton class=</span><span>"btn-outlined-purple"</span
+                ><span>></span> click me <span>&lt/button></span><br /><br />
+              </code>
+              <code class="code-block pl-1 display-f">
+                <span>&ltbutton class=</span><span>"btn-outlined-orange "</span
+                ><span>></span> click me <span>&lt/button></span><br /><br />
+              </code>
+              <code class="code-block pl-1 display-f">
+                <span>&ltbutton class=</span><span>"btn-complement-purple"</span
+                ><span>></span> click me <span>&lt/button></span><br /><br />
+              </code>
+              <code class="code-block pl-1 display-f">
+                <span>&ltbutton class=</span
+                ><span>"btn-complement-primary"</span><span>></span> click me
+                <span>&lt/button></span>
+              </code>
+            </div>
+          </div>
+          <label>
+            <input type="checkbox" />
+            <div class="c-heading">View Code</div>
+          </label>
+
+          <!-- </label> -->
+        </div>
+
+        <br />
+
+        <hr class="mt-4 mb-4" />
+      </div>
+      <br />
+      <br />
+
+      <!-- cards -->
+      <div class="info-container mb-2">
+        <h2 class="mb-2">Cards</h2>
+        <p>
+          What does this joke and half a deck of cards have in common? You can’t
+          even deal with it.
+        </p>
+        <br />
+        <br />
+        <div class="card">
+          <h1 class="card-title">This is a title</h1>
+          <p class="card-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sunt,
+            quo totam aliquam praesentium ducimus tempore sapiente quia nulla
+            optio? Lorem ipsum, dolor sit amet consectetur
+            <a href="">adipisicing elit</a>. Libero laboriosam laborum
+            exercitationem autem commodi voluptas odio aliquid ut velit
+            doloremque minima, quaerat dolores, corporis consequuntur totam nam
+            id veniam maxime.
+          </p>
+        </div>
+        <div class="info-container-card-code mt-2">
+          <code class="code-block pl-1 display-f">
+            <span>&ltdiv class=</span><span>"card"</span><span>></span>
+          </code>
+          <code class="code-block pl-2 display-f">
+            <span>&lth3 class=</span><span>"card-title"</span><span>></span>
+            <span>This is card title</span> <span> &lt/h3></span><br />
+          </code>
+          <code class="code-block primary-light-2 pl-2 display-f">
+            <span>&ltp class=</span><span>"card-body"</span><span>></span>
+            <span
+              >Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span
+            >
+            <span> &lt/p></span><br />
+          </code>
+          <code class="code-block pl-1 display-f">
+            <span> &lt/div></span><br />
+          </code>
+        </div>
+      </div>
+      <hr class="mt-4 mb-4" />
+
+      <!-- grid system -->
+      <div class="info-container mb-2">
+        <h2 class="mb-2">Grid System</h2>
+        <p>
+          "Why did the web designer break up with the grid system in their CSS
+          framework? Because it was just too constraining!"
+        </p>
+        <div class="row gap-2 justify-center">
+          <div class="col-12-xs col-5-sm col-3-xl">
             <div class="card">
-                <h1 class="card-title">This is a title</h1>
-                <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sunt, quo totam
-                    aliquam
-                    praesentium ducimus tempore sapiente quia nulla optio? Lorem ipsum, dolor sit amet consectetur <a
-                        href="">adipisicing elit</a>. Libero laboriosam laborum exercitationem autem commodi voluptas
-                    odio
-                    aliquid ut velit doloremque minima, quaerat dolores, corporis consequuntur totam nam id veniam
-                    maxime.
-                </p>
+              <h3 class="card-title">Hello, ninjas</h3>
+              <p class="card-body">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
             </div>
-            <div class="info-container-card-code mt-2">
-                <code class="code-block pl-1 display-f">
-                    <span>&ltdiv class=</span><span>"card"</span><span>></span> 
-                </code>
-                <code class="code-block pl-2 display-f">
-                    <span>&lth3 class=</span><span>"card-title"</span><span>></span> <span>This is card title</span>
-                    <span> &lt/h3></span><br>
-                </code>
-                <code class="code-block primary-light-2 pl-2 display-f">
-                    <span>&ltp class=</span><span>"card-body"</span><span>></span> <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
-                    <span> &lt/p></span><br>
-                </code>
-                <code class="code-block pl-1 display-f">
-                    <span> &lt/div></span><br>
-                    </code>
-                </code>
+          </div>
+          <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+              <h3 class="card-title">Hello, devlord</h3>
+              <p class="card-body">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
             </div>
+          </div>
+          <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+              <h3 class="card-title">Hello, devlord</h3>
+              <p class="card-body">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+              <h3 class="card-title">Hello, devlord</h3>
+              <p class="card-body">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
         </div>
-        <hr class="mt-4 mb-4">
-
-        <!-- grid system -->
-        <div class="info-container mb-2">
-
-            <h2 class="mb-2">Grid System</h2>
-            <p>"Why did the web designer break up with the grid system in their CSS framework? Because it was just too
-                constraining!" </p>
-            <div class="row gap-2 justify-center">
-                <div class="col-12-xs col-5-sm col-3-xl">
-                    <div class="card">
-                        <h3 class="card-title">Hello, ninjas</h3>
-                        <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="col-12-xs col-5-sm col-3-xl">
-                    <div class="card">
-                        <h3 class="card-title">Hello, devlord</h3>
-                        <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="col-12-xs col-5-sm col-3-xl">
-                    <div class="card">
-                        <h3 class="card-title">Hello, devlord</h3>
-                        <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="col-12-xs col-5-sm col-3-xl">
-                    <div class="card">
-                        <h3 class="card-title">Hello, devlord</h3>
-                        <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="info-container-grid-code">
-                <div>
-                    <code class="code-block display-f pl-1">
-                        <span>&ltdiv class=</span><span>"row gap-2 justify-center"</span><span>></span> 
-                      </code>
-                    <code class="code-block display-f pl-2">
-                        <span>&ltdiv class=</span><span>"col-12-xs col-5-sm col-3-xl"</span><span>></span> 
-                    </code>
-                    <code class="code-block pl-3 display-f">
-                        <span>&ltdiv class=</span><span>"card"</span><span>></span> 
-                    </code>
-                    <code class="code-block pl-4 display-f">
-                        <span>&lth3 class=</span><span>"card-title"</span><span>></span> <span>Hello, devlord</span>
-                        <span> &lt/h3></span><br>
-                    </code>
-                    <code class="code-block pl-4 display-f">
-                        <span>&ltp class=</span><span>"card-body"</span><span>></span> <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
-                        <span> &lt/p></span><br>
-                    </code>
-                    <code class="code-block pl-3 display-f">
-                        <span>&lt/div </span><span>></span> 
-                    </code>
-                    <code class="code-block pl-2 display-f">
-                        <span>&lt/div </span><span>></span> 
-                    </code>
-                    <code class="code-block pl-1 display-f">
-                        <span>&lt/div </span><span>></span> 
-                    </code>
-                </div>
-                <div>
-                    <code class="code-block display-f pl-1">
-                        <span>&ltdiv class=</span><span>"row gap-2 justify-center"</span><span>></span> 
-                      </code>
-                    <code class="code-block display-f pl-2">
-                        <span>&ltdiv class=</span><span>"col-12-xs col-5-sm col-3-xl"</span><span>></span> 
-                    </code>
-                    <code class="code-block pl-3 display-f">
-                        <span>&ltdiv class=</span><span>"card"</span><span>></span> 
-                    </code>
-                    <code class="code-block pl-4 display-f">
-                        <span>&lth3 class=</span><span>"card-title"</span><span>></span> <span>Hello, devlord</span>
-                        <span> &lt/h3></span><br>
-                    </code>
-                    <code class="code-block pl-4 display-f">
-                        <span>&ltp class=</span><span>"card-body"</span><span>></span> <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
-                        <span> &lt/p></span><br>
-                    </code>
-                    <code class="code-block pl-3 display-f">
-                        <span>&lt/div </span><span>></span> 
-                    </code>
-                    <code class="code-block pl-2 display-f">
-                        <span>&lt/div </span><span>></span> 
-                    </code>
-                    <code class="code-block pl-1 display-f">
-                        <span>&lt/div </span><span>></span> 
-                    </code>
-                </div>
-                <div>
-                    <code class="code-block display-f pl-1">
-                        <span>&ltdiv class=</span><span>"row gap-2 justify-center"</span><span>></span> 
-                      </code>
-                    <code class="code-block display-f pl-2">
-                        <span>&ltdiv class=</span><span>"col-12-xs col-5-sm col-3-xl"</span><span>></span> 
-                    </code>
-                    <code class="code-block pl-3 display-f">
-                        <span>&ltdiv class=</span><span>"card"</span><span>></span> 
-                    </code>
-                    <code class="code-block pl-4 display-f">
-                        <span>&lth3 class=</span><span>"card-title"</span><span>></span> <span>Hello, devlord</span>
-                        <span> &lt/h3></span><br>
-                    </code>
-                    <code class="code-block pl-4 display-f">
-                        <span>&ltp class=</span><span>"card-body"</span><span>></span> <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
-                        <span> &lt/p></span><br>
-                    </code>
-                    <code class="code-block pl-3 display-f">
-                        <span>&lt/div </span><span>></span> 
-                    </code>
-                    <code class="code-block pl-2 display-f">
-                        <span>&lt/div </span><span>></span> 
-                    </code>
-                    <code class="code-block pl-1 display-f">
-                        <span>&lt/div </span><span>></span> 
-                    </code>
-                </div>
-            </div>
+        <div class="info-container-grid-code">
+          <div>
+            <code class="code-block display-f pl-1">
+              <span>&ltdiv class=</span><span>"row gap-2 justify-center"</span
+              ><span>></span>
+            </code>
+            <code class="code-block display-f pl-2">
+              <span>&ltdiv class=</span
+              ><span>"col-12-xs col-5-sm col-3-xl"</span><span>></span>
+            </code>
+            <code class="code-block pl-3 display-f">
+              <span>&ltdiv class=</span><span>"card"</span><span>></span>
+            </code>
+            <code class="code-block pl-4 display-f">
+              <span>&lth3 class=</span><span>"card-title"</span><span>></span>
+              <span>Hello, devlord</span> <span> &lt/h3></span><br />
+            </code>
+            <code class="code-block pl-4 display-f">
+              <span>&ltp class=</span><span>"card-body"</span><span>></span>
+              <span
+                >Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span
+              >
+              <span> &lt/p></span><br />
+            </code>
+            <code class="code-block pl-3 display-f">
+              <span>&lt/div </span><span>></span>
+            </code>
+            <code class="code-block pl-2 display-f">
+              <span>&lt/div </span><span>></span>
+            </code>
+            <code class="code-block pl-1 display-f">
+              <span>&lt/div </span><span>></span>
+            </code>
+          </div>
+          <div>
+            <code class="code-block display-f pl-1">
+              <span>&ltdiv class=</span><span>"row gap-2 justify-center"</span
+              ><span>></span>
+            </code>
+            <code class="code-block display-f pl-2">
+              <span>&ltdiv class=</span
+              ><span>"col-12-xs col-5-sm col-3-xl"</span><span>></span>
+            </code>
+            <code class="code-block pl-3 display-f">
+              <span>&ltdiv class=</span><span>"card"</span><span>></span>
+            </code>
+            <code class="code-block pl-4 display-f">
+              <span>&lth3 class=</span><span>"card-title"</span><span>></span>
+              <span>Hello, devlord</span> <span> &lt/h3></span><br />
+            </code>
+            <code class="code-block pl-4 display-f">
+              <span>&ltp class=</span><span>"card-body"</span><span>></span>
+              <span
+                >Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span
+              >
+              <span> &lt/p></span><br />
+            </code>
+            <code class="code-block pl-3 display-f">
+              <span>&lt/div </span><span>></span>
+            </code>
+            <code class="code-block pl-2 display-f">
+              <span>&lt/div </span><span>></span>
+            </code>
+            <code class="code-block pl-1 display-f">
+              <span>&lt/div </span><span>></span>
+            </code>
+          </div>
+          <div>
+            <code class="code-block display-f pl-1">
+              <span>&ltdiv class=</span><span>"row gap-2 justify-center"</span
+              ><span>></span>
+            </code>
+            <code class="code-block display-f pl-2">
+              <span>&ltdiv class=</span
+              ><span>"col-12-xs col-5-sm col-3-xl"</span><span>></span>
+            </code>
+            <code class="code-block pl-3 display-f">
+              <span>&ltdiv class=</span><span>"card"</span><span>></span>
+            </code>
+            <code class="code-block pl-4 display-f">
+              <span>&lth3 class=</span><span>"card-title"</span><span>></span>
+              <span>Hello, devlord</span> <span> &lt/h3></span><br />
+            </code>
+            <code class="code-block pl-4 display-f">
+              <span>&ltp class=</span><span>"card-body"</span><span>></span>
+              <span
+                >Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span
+              >
+              <span> &lt/p></span><br />
+            </code>
+            <code class="code-block pl-3 display-f">
+              <span>&lt/div </span><span>></span>
+            </code>
+            <code class="code-block pl-2 display-f">
+              <span>&lt/div </span><span>></span>
+            </code>
+            <code class="code-block pl-1 display-f">
+              <span>&lt/div </span><span>></span>
+            </code>
+          </div>
         </div>
-        <hr class="mt-4 mb-4">
+      </div>
+      <hr class="mt-4 mb-4" />
 
-        <!-- utilities -->
-        <div class="info-container mb-2">
-            <h2>Using Utilities</h2>
-            <br>
-            <br>
-            <p>"Why did the CSS utility class go to the gym? To get marginally better! But don't worry, it didn't flex
-                its
-                box-shadow too much."
-            </p>
-            <div class="mt-2 text-orange-dark-2 bg-orange-light-5 p-2 br-xs">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis!</p>
-            </div>
-            <div class="mt-2 text-secondary-dark-2 bg-secondary-light-5 p-2 br-lg">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis!</p>
-            </div>
-            <br>
-            <p>Yes , we have utility classes for everything from border-radius to opactiy . And like everything else in
-                Jazz even this is customizable . Feel free to add your own utility classes for border , border-radius or
-                any other css utility with just a few clicks !</p>
-            <div class="mt-2">
-                <code class="code-block display-f pl-1">
-                    <span>&ltdiv class=</span><span>"mt-2 text-orange-dark-2 bg-orange-light-5 p-2 br-xs"</span><span>></span> 
-                  </code>
-                <code class="code-block display-f pl-2">
-                    <span>&ltp</span><span>></span> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis!</span>
-                    <span> &lt/p></span><br>
-                </code>
-                <code class="code-block pl-1 display-f">
-                    <span>&lt/div </span><span>></span> 
-                </code>
-            </div>
-            <div class="mt-2">
-                <code class="code-block display-f pl-1">
-                    <span>&ltdiv class=</span><span>"mt-2 text-orange-dark-2 bg-orange-light-5 p-2 br-lg"</span><span>></span> 
-                  </code>
-                <code class="code-block display-f pl-2">
-                    <span>&ltp</span><span>></span> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis!</span>
-                    <span> &lt/p></span><br>
-                </code>
-                <code class="code-block pl-1 display-f">
-                    <span>&lt/div </span><span>></span> 
-                </code>
-            </div>
-            <div class="display-i-b bg-purple text-white o-10 mt-3 mr-3 p-2">opacity 10</div>
-            <div class="display-i-b bg-purple text-white o-30 mt-3 mr-3 p-2">opacity 30</div>
-            <div class="display-i-b bg-purple text-white o-50 mt-3 mr-3 p-2">opacity 50</div>
-            <div class="display-i-b bg-purple text-white o-70 mt-3 mr-3 p-2">opacity 70</div>
-            <div class="display-i-b bg-purple text-white o-90 mt-3 mr-3 p-2">opacity 90</div>
-            <div class="mt-2">
-                <code class="code-block display-f pl-1">
-                    <span>&ltdiv class=</span><span>"display-i-b bg-purple text-white o-10 mt-3 mr-3 p-2"</span><span>></span> 
-                  </code>
-                <code class="code-block display-f pl-2">
-                     <span>opacity 10</span>
-                   <br>
-                </code>
-                <code class="code-block pl-1 display-f">
-                    <span>&lt/div </span><span>></span> 
-                </code>
-            </div>
-            <div>
-                <code class="code-block display-f pl-1">
-                    <span>&ltdiv class=</span><span>"display-i-b bg-purple text-white o-30 mt-3 mr-3 p-2"</span><span>></span> 
-                  </code>
-                <code class="code-block display-f pl-2">
-                     <span>opacity 30</span>
-                   <br>
-                </code>
-                <code class="code-block pl-1 display-f">
-                    <span>&lt/div </span><span>></span> 
-                </code>
-            </div>
-            <div>
-                <code class="code-block display-f pl-1">
-                    <span>&ltdiv class=</span><span>"display-i-b bg-purple text-white o-50 mt-3 mr-3 p-2"</span><span>></span> 
-                  </code>
-                <code class="code-block display-f pl-2">
-                     <span>opacity 50</span>
-                   <br>
-                </code>
-                <code class="code-block pl-1 display-f">
-                    <span>&lt/div </span><span>></span> 
-                </code>
-            </div>
-            <div>
-                <code class="code-block display-f pl-1">
-                    <span>&ltdiv class=</span><span>"display-i-b bg-purple text-white o-70 mt-3 mr-3 p-2"</span><span>></span> 
-                  </code>
-                <code class="code-block display-f pl-2">
-                     <span>opacity 70</span>
-                   <br>
-                </code>
-                <code class="code-block pl-1 display-f">
-                    <span>&lt/div </span><span>></span> 
-                </code>
-            </div>
-            <div>
-                <code class="code-block display-f pl-1">
-                    <span>&ltdiv class=</span><span>"display-i-b bg-purple text-white o-90 mt-3 mr-3 p-2"</span><span>></span> 
-                  </code>
-                <code class="code-block display-f pl-2">
-                     <span>opacity 90</span>
-                   <br>
-                </code>
-                <code class="code-block pl-1 display-f">
-                    <span>&lt/div </span><span>></span> 
-                </code>
-            </div>
+      <!-- utilities -->
+      <div class="info-container mb-2">
+        <h2>Using Utilities</h2>
+        <br />
+        <br />
+        <p>
+          "Why did the CSS utility class go to the gym? To get marginally
+          better! But don't worry, it didn't flex its box-shadow too much."
+        </p>
+        <div class="mt-2 text-orange-dark-2 bg-orange-light-5 p-2 br-xs">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+            perspiciatis!
+          </p>
         </div>
-        <hr class="mt-4 mb-4">
+        <div class="mt-2 text-secondary-dark-2 bg-secondary-light-5 p-2 br-lg">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+            perspiciatis!
+          </p>
+        </div>
+        <br />
+        <p>
+          Yes , we have utility classes for everything from border-radius to
+          opactiy . And like everything else in Jazz even this is customizable .
+          Feel free to add your own utility classes for border , border-radius
+          or any other css utility with just a few clicks !
+        </p>
+        <div class="mt-2">
+          <code class="code-block display-f pl-1">
+            <span>&ltdiv class=</span
+            ><span>"mt-2 text-orange-dark-2 bg-orange-light-5 p-2 br-xs"</span
+            ><span>></span>
+          </code>
+          <code class="code-block display-f pl-2">
+            <span>&ltp</span><span>></span>
+            <span
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+              perspiciatis!</span
+            >
+            <span> &lt/p></span><br />
+          </code>
+          <code class="code-block pl-1 display-f">
+            <span>&lt/div </span><span>></span>
+          </code>
+        </div>
+        <div class="mt-2">
+          <code class="code-block display-f pl-1">
+            <span>&ltdiv class=</span
+            ><span>"mt-2 text-orange-dark-2 bg-orange-light-5 p-2 br-lg"</span
+            ><span>></span>
+          </code>
+          <code class="code-block display-f pl-2">
+            <span>&ltp</span><span>></span>
+            <span
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+              perspiciatis!</span
+            >
+            <span> &lt/p></span><br />
+          </code>
+          <code class="code-block pl-1 display-f">
+            <span>&lt/div </span><span>></span>
+          </code>
+        </div>
+        <div class="display-i-b bg-purple text-white o-10 mt-3 mr-3 p-2">
+          opacity 10
+        </div>
+        <div class="display-i-b bg-purple text-white o-30 mt-3 mr-3 p-2">
+          opacity 30
+        </div>
+        <div class="display-i-b bg-purple text-white o-50 mt-3 mr-3 p-2">
+          opacity 50
+        </div>
+        <div class="display-i-b bg-purple text-white o-70 mt-3 mr-3 p-2">
+          opacity 70
+        </div>
+        <div class="display-i-b bg-purple text-white o-90 mt-3 mr-3 p-2">
+          opacity 90
+        </div>
+        <div class="mt-2">
+          <code class="code-block display-f pl-1">
+            <span>&ltdiv class=</span
+            ><span>"display-i-b bg-purple text-white o-10 mt-3 mr-3 p-2"</span
+            ><span>></span>
+          </code>
+          <code class="code-block display-f pl-2">
+            <span>opacity 10</span>
+            <br />
+          </code>
+          <code class="code-block pl-1 display-f">
+            <span>&lt/div </span><span>></span>
+          </code>
+        </div>
+        <div>
+          <code class="code-block display-f pl-1">
+            <span>&ltdiv class=</span
+            ><span>"display-i-b bg-purple text-white o-30 mt-3 mr-3 p-2"</span
+            ><span>></span>
+          </code>
+          <code class="code-block display-f pl-2">
+            <span>opacity 30</span>
+            <br />
+          </code>
+          <code class="code-block pl-1 display-f">
+            <span>&lt/div </span><span>></span>
+          </code>
+        </div>
+        <div>
+          <code class="code-block display-f pl-1">
+            <span>&ltdiv class=</span
+            ><span>"display-i-b bg-purple text-white o-50 mt-3 mr-3 p-2"</span
+            ><span>></span>
+          </code>
+          <code class="code-block display-f pl-2">
+            <span>opacity 50</span>
+            <br />
+          </code>
+          <code class="code-block pl-1 display-f">
+            <span>&lt/div </span><span>></span>
+          </code>
+        </div>
+        <div>
+          <code class="code-block display-f pl-1">
+            <span>&ltdiv class=</span
+            ><span>"display-i-b bg-purple text-white o-70 mt-3 mr-3 p-2"</span
+            ><span>></span>
+          </code>
+          <code class="code-block display-f pl-2">
+            <span>opacity 70</span>
+            <br />
+          </code>
+          <code class="code-block pl-1 display-f">
+            <span>&lt/div </span><span>></span>
+          </code>
+        </div>
+        <div>
+          <code class="code-block display-f pl-1">
+            <span>&ltdiv class=</span
+            ><span>"display-i-b bg-purple text-white o-90 mt-3 mr-3 p-2"</span
+            ><span>></span>
+          </code>
+          <code class="code-block display-f pl-2">
+            <span>opacity 90</span>
+            <br />
+          </code>
+          <code class="code-block pl-1 display-f">
+            <span>&lt/div </span><span>></span>
+          </code>
+        </div>
+      </div>
+      <hr class="mt-4 mb-4" />
     </div>
-</body>
-
+  </body>
 </html>
