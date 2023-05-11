@@ -1,34 +1,53 @@
 // import google font
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /* reset styles */
 * {
-    color: inherit;
-    margin: 0;
+  color: inherit;
+  margin: 0;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 ul {
-    padding: 0;
-    list-style-type: none;
+  padding: 0;
+  list-style-type: none;
 }
 
+p {
+  text-align: justify;
+  line-height: 1.5;
+}
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 hr {
-    border: 0;
-    border-top: 1px dotted #efefef;
+  border: 0;
+  border-top: 1px dotted #efefef;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-.test {
-    color: $primary;
+section {
+  padding: 2rem 0;
+}
+
+section:first-child {
+  padding-top: 0%;
+}
+
+#header {
+  padding: 0;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 20%;
+  box-sizing: border-box;
 }
