@@ -1,13 +1,13 @@
-![JazzCSS - Let's Jazz it up](img/jazz.gif)
+<img src="relative_path_to_gif_file.gif" width="400">![JazzCSS - Let's Jazz it up](img/jazz.gif)</img>
 
 
 > A minimalist CSS framework.
 
 
 
-## Why it's awesome
+## Introducing JazzCSS
 
-Introducing JazzCSS, the ultimate frontend styling companion that will jazz up your web development journey! Say goodbye to bloated stylesheets and tedious setup processes. With JazzCSS, you get a minimalistic yet powerful toolkit designed for blazing-fast performance and unparalleled productivity.
+The ultimate frontend styling companion that will jazz up your web development journey! Say goodbye to bloated stylesheets and tedious setup processes. With JazzCSS, you get a minimalistic yet powerful toolkit designed for blazing-fast performance and unparalleled productivity.
 
 ## Download
 
